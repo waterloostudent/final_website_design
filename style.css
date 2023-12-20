@@ -1,13 +1,6 @@
       #header,
-      .courses,
-      #footer,
-      #sidebar,
       #nav,
       .article,
-      figure,
-      figcaption {
-        display: block;
-      }
 
       body {
         color: #666666;
@@ -18,34 +11,31 @@
         line-height: 1.4em;
         margin: 0px;
       }
+			/* Style the top navigation bar */
+				.topnav {
+  			overflow: hidden;
+  			background-color: white;
 
-      .wrapper {
-        width: 940px;
-        margin: 20px auto 20px auto;
-        border: 2px solid #000000;
-        background-color: #ffffff;
-      }
+				}
 
-      #header {
-        height: 160px;
-        background-image: url("https://i.imgur.com/4rcWA3C.jpg");
-      }
+/* Style the topnav links */
+				.topnav a {
+ 				 float: left;
+ 				 display: block;
+  			 color: black;
+  			text-align: center;
+  		  padding: 14px 16px;
+  		  text-decoration: none;
+        font-family:Trebuchet MS;
+				
+			  }
 
+/* Change color on hover */
+				.topnav a:hover {
+ 				 background-color: lightgrey;
+ 				 color: black;
+				}
 
-
-      figure {
-        float: left;
-        width: 290px;
-        height: 220px;
-        padding: 5px;
-        margin: 20px;
-        border: 1px solid #eeeeee;
-      }
-
-      figcaption {
-        font-size: 90%;
-        text-align: left;
-      }
 
 
 
